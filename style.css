@@ -2,29 +2,32 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    color: white;
+   overflow-x: hidden ;
+
 }
 
 .container {
     background: #282828;
-    width: 100%;
+    width: 100vw;
     border-top: 5px solid rgb(255, 20, 147);
+
 }
 
 .header {
-    width: 100%;
-    height: 390px;
+    height: 45vh;
     overflow: hidden;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
-
+  
 
 }
 
 .header img {
-    width: 100%;
+    width: 100vw;
     background: cover;
+ 
 
 
 }
@@ -32,9 +35,9 @@ body {
 .perfil {
     margin-left: auto;
     margin-right: auto;
-    background-color: aqua;
-    width: 1200px;
-    height: 1200px;
+    background-color: #282828;
+    width: 80%;
+  
     /*position: relative;*/
     display: flex;
     flex-direction: column;
@@ -89,16 +92,15 @@ body {
 #secsu {
     width: 100px;
     height: 100px;
-    background-color: aqua;
+    background-color: #282828;
 }
 
 
 .dados-perfil {
     margin-left: auto;
     margin-right: auto;
-    background-color: #3333;
+    background-color: #282828;
     width: 80%;
-    height: 900px;
 }
 
 .nick-name {
@@ -130,28 +132,82 @@ body {
 }
 
 .gostos {
+    text-align: center;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    width: 70%;
+    
 }
 
 .lista-gostos {
     list-style: none;
-    display: flex;
-    width: 600px;
+
     text-align: center;
+margin-left: auto;
+    margin-right: auto;
+display: flex;
+}
+.lista-gostos img{
+    width: 20px;
+    padding-right: 5px;
+
 
 }
 
 .lista-gostos li {
-    padding: 10px 12px 10px 12px;
-    border: 2px solid rgb(139, 0, 139);
+    width: 50%;
+    margin-top: 20px;
+    border: 2px solid rgb(139,0,139);
     border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+
+}
+.redes-sociais{
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin: 12px;
-
+    text-align: center;
    
+}
+.redes-sociais img{
+    cursor: pointer;
+    padding: 10px;
+    
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+.ft{
+    display: flex;
+    background-color: #282828;
+    color: white;
+   
+}
+
+.ft-overanimes{
+    width: 100px;
+
+
+}
+
+.ft img{
+    margin-top: -30px;
+    width: 180px;
+ 
+}
+
+.p-footer p{
+
+  margin-left: 100px;
 
 }
